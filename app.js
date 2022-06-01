@@ -107,4 +107,164 @@
 // //      CHAPTER 5
 //    Q:1
 
+// var num1 = 3
+// var num2 = 5
+// var numResult = num1 + num2
+
+// document.write("Sum of " + num1 + " and " + num2 + " is " + numResult )
+
+// //    Q:2
+// // for subtraction:
+// var num1 = 5
+// var num2 = 3
+// var numResult = num1 - num2
+
+// document.write("If we Subtaract " + num1 + " and " + num2 + " the Result will be " + numResult )
+
+//  //    Q:2
+// // for multiplication:
+// var num1 = 5
+// var num2 = 3
+// var numResult = num1 * num2
+
+// document.write("If we Multiply " + num1 + " and " + num2 + " the Result will be " + numResult )
+
+// //    Q:2
+// // for devision:
+// var num1 = 9
+// var num2 = 3
+// var numResult = num1 / num2
+
+// document.write("If we Divide " + num1 + " and " + num2 + " the Result will be " + numResult )
+
+// //    Q:3
+// var myNum;
+// document.write("Value after variable declaration is undefined" + "<br>");
+
+// myNum = 5;
+// document.write("Initial Value is " + myNum + "<br>");
+
+// myNum++;
+// document.write("Value after increment is: " + myNum + "<br>");
+
+// myNum = myNum + 7;
+// document.write("Value after Addition is: " + myNum + "<br>");
+
+// myNum--;
+// document.write("Value after decrement is: " + myNum + "<br>");
+
+// myNum = myNum % 3 ;
+// document.write("The Remainder is: " + myNum + "<br>");
+
+// //    Q:4
+// var ticket = 500;
+// var totalcost = ticket* 5;
+
+// document.write("Total cost to buy 5 tickets to a movie is " + totalcost + " PKR")
+
+// //    Q:5
+
+// document.write("<h1> Table Of 5 </h1>  <br> <br>")
+
+// document.write("5 x 1 = " + 5*1 + "<br>");
+// document.write("5 x 2 = " + 5*2 + "<br>");
+// document.write("5 x 3 = " + 5*3 + "<br>");
+// document.write("5 x 4 = " + 5*4 + "<br>");
+// document.write("5 x 5 = " + 5*5 + "<br>");
+// document.write("5 x 6 = " + 5*6 + "<br>");
+// document.write("5 x 7 = " + 5*7 + "<br>");
+// document.write("5 x 8 = " + 5*8 + "<br>");
+// document.write("5 x 9 = " + 5*9 + "<br>");
+// document.write("5 x 10 = " + 5*10 + "<br>");
+
+// //    Q:6
+
+// var celsius = 25;
+// var fahrenhiet = 70;
+
+// C = (fahrenhiet-32)* 5/9;
+// F = (celsius*9/5)+32;
+
+// document.write(celsius + "<sup>0</sup>c  is " + F + "<sup>0</sup>f  <br>")
+// document.write(fahrenhiet + "<sup>0</sup>f  is " + C + "<sup>0</sup>c  <br>")
+
+// //    Q:7
+// var item1 = 500;
+// var item2 = 1200;
+// var item1Qty = 3;
+// var item2Qty = 5;
+// var shippingCharges = 600;
+
+// var costperItem1 = item1 * item1Qty;
+// var costperItem2 = item2 * item2Qty;
+
+// var totalCost = costperItem1 + costperItem2 + shippingCharges;
+
+// document.write("price of item 1 is: " + item1 + "<br>");
+// document.write("Quantity of item 1 is: " + item1Qty + "<br>");
+// document.write("price of item 2 is: " + item2 + "<br>");
+// document.write("Quantity of item 2 is: " + item2Qty + "<br>");
+// document.write("Shipping charges are: " + shippingCharges + "<br> <br>");
+
+// document.write("Total cost of your order is: " + totalCost);
+
+// //    Q:8
+// var totalNum = 850;
+// var obtNum = 694;
+// percentage = obtNum/totalNum * 100;
+
+// document.write("Total marks: " + totalNum + "<br>");
+// document.write("Obtained marks: " + obtNum + "<br>");
+// document.write("Percentage: " + percentage);
+
+// //    Q:9
+
+// var usd2Pkr = 10*197.78;
+// var riyal2Pkr = 25*52.74;
+// var totalCurrency = usd2Pkr + riyal2Pkr;
+
+// document.write("Total Curency in PKR: " + totalCurrency);
+
+// //    Q:10
+
+// var specialNum = 6 + 5 * 10 / 2;
+// document.write("The expression's Result is: " + specialNum);
+
+// //    Q:11
+
+// var currentYear = 2022;
+// var birthYear = 2001;
+
+// var myAge = currentYear - birthYear;
+
+// document.write("<h1>AGE CALCULATOR <hr><br> Current Year: "+ currentYear + "<br>  Birth Year: " + birthYear + "<br> My Age: " + myAge)
+
+// //    Q:12
+
+// var radius = 20;
+// circumference = 2* 3.142 * radius;
+// area = 3.142* radius * radius;
+
+// document.write("<h1>THE GEOMETRIZER</h1> <hr><br>");
+// document.write("Radius: " + radius + "<br>");
+// document.write("Circumference: " + circumference + "<br>");
+// document.write("Area: " + area);
+
+//    Q:13
+
+var favSnack = "Lays";
+var currentAge = 21;
+var maxAge = 70;
+var snackperDay = 4;
+var totalsnacktillDeath = (maxAge - currentAge) * 365 * 4;
+
+document.write("<h1> THe Lifetime Supply Calculator</h1> <hr><br>")
+document.write("Favourite Snacks: " + favSnack + "<br> Current Age: " + currentAge + "<br>  Estimated Maximum Age: " + maxAge + "<br>Amount Of Snacks Per Day: " + snackperDay + "<br> You will need  " + totalsnacktillDeath + " Lays to last you until the Ripe old Age of " + maxAge);
+
+
+
+
+
+
+
 
