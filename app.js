@@ -650,3 +650,296 @@
 // else {
 //     alert("Invalid Operator")
 // }
+
+// //      CHAPTER 12-13
+
+//  Q:1
+
+// var userInput = prompt("Enter a Character i.e. : a-z,A-Z,0-9")
+// var asciiCode = userInput.charCodeAt(0);
+
+
+// if (asciiCode >= 65 && asciiCode <= 90) {
+//     alert(userInput + " is a uppercase letter")
+// }
+// else if (asciiCode >= 97 && asciiCode <= 122) {
+//     alert(userInput + " is a Lowercase letter")
+// }
+// else if (asciiCode >= 48 && asciiCode <= 57) {
+//     alert(userInput + " is a number")
+// }
+// else {
+//     alert("Invalid Input")
+// }
+// //  Q:2
+
+// var UserNumber1 = +prompt("Enter a number 1 ")
+// var UserNumber2 = +prompt("Enter a number 2 ")
+
+// if (UserNumber1 > UserNumber2) {
+//     alert(UserNumber1 + " is greater than " + UserNumber2)
+// }
+// else {
+//     alert(UserNumber2 + " is greater than " + UserNumber1)
+// }
+
+// //  Q:3
+
+// var numberFinder = +prompt("Enter a number : ")
+
+// if (numberFinder > 0) {
+//     alert("Positive number")
+// }
+// else if (numberFinder < 0) {
+//     alert("Negative number")
+// }
+// else if (numberFinder === 0) {
+//     alert("Zero")
+// }
+// else {
+//     alert("Invalid Input")
+// }
+
+//  Q:4
+
+// var char = prompt("Enter a character (a-z, A-z)");
+
+//     if ((char == "a") || (char == "A") || (char == "e") || (char == "E") || (char == "i") || (char == "I") || (char == "O") || (char == "o") || (char == "u") || (char == "U")) {
+//         alert(true)
+//     }
+//     else {
+//         alert(false)
+//     }
+// //  Q:5
+
+// var actualPass = "FUUAST1SADIQ";
+//     var InputPass = prompt("Enter a Password");
+//     if (InputPass === actualPass) {
+//         alert("Correct! The password you entered matches the original password")
+//     }
+//     else if (InputPass == "") {
+//         alert("Please enter your password")
+//     }
+//     else {
+//         alert("Incorrect password")
+//     }
+
+// //  Q:6
+
+// var greeting;
+//     var hour = 13;
+//     if (hour < 18) {
+//         greeting = "Good day";
+//         alert(greeting)
+//     }
+//     else {
+//         greeting = "Good evening";
+//         alert(greeting)
+//     }
+
+// //  Q:7
+
+// var userInput = +prompt("Enter a time in 24 hours clock format like: 1900 = 7pm.")
+//     if(userInput>=0000 && userInput<1200 ){
+    
+//         alert("Good Morning !")
+//     }
+//     else if (userInput>=1200 && userInput<1700){
+//         alert("Good Afternoon !")
+//     }
+//     else if (userInput>=1700 && userInput<2100){
+//         alert("Good Evening!")
+//     }
+//     else if (userInput>=2100 && userInput<2359){
+//         alert("Good Night !")
+//     }
+//     else{
+//         alert("Invalid time format")
+//     }
+
+
+// //      CHAPTER 14-16
+// //  Q:1
+
+// var cities = [];
+//     alert("var cities = [ ] ;")
+
+// //  Q:2
+
+// arrayList = new Array()
+//     alert(" arrayList = new Array()")
+
+// //  Q:3
+
+// var stringArray = ["Karachi", "Lahore", "Islambad"];
+
+// //  Q:4
+
+// var numberArray = [1, 2, 4, 5, 6, 66, 67];
+
+// //  Q:5
+
+// var boolArray = [true, true, false, false];
+
+// //  Q:6
+
+// var mixArray = ["Karachi", "Lahore", "Islambad", 1, 2, 4, 5, 6, 66, 67, true, true, false, false];
+
+// //  Q:7
+
+// var qualificationsInPak = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
+
+//     document.write("<h1>Qualification</h1><br>")
+//     document.write(`<h2>1) ${qualificationsInPak[0]}</h2>`)
+//     document.write(`<h2>2) ${qualificationsInPak[1]}</h2>`)
+//     document.write(`<h2>3) ${qualificationsInPak[2]}</h2>`)
+//     document.write(`<h2>4) ${qualificationsInPak[3]}</h2>`)
+//     document.write(`<h2>5) ${qualificationsInPak[4]}</h2>`)
+//     document.write(`<h2>6) ${qualificationsInPak[5]}</h2>`)
+//     document.write(`<h2>7) ${qualificationsInPak[6]}</h2>`)
+//     document.write(`<h2>8) ${qualificationsInPak[7]}</h2>`)
+
+// //  Q:8
+
+// var stdNames = ["Sadiq", "bilal", "Dany"];
+//     var stdScroes = [450, 340, 380];
+
+//     var perofStd1 = stdScroes[0] / 500 * 100;
+//     var perofStd2 = stdScroes[1] / 500 * 100;
+//     var perofStd3 = stdScroes[2] / 500 * 100;
+
+//     document.write(`Score of  ${stdNames[0]} is ${stdScroes[0]}. Percentage ${perofStd1}% <br> `)
+//     document.write(`Score of  ${stdNames[1]} is ${stdScroes[1]}. Percentage ${perofStd2}% <br> `)
+//     document.write(`Score of  ${stdNames[2]} is ${stdScroes[2]}. Percentage ${perofStd3}% <br> `)
+
+// //  Q:9
+
+// var colors = ["red", "green", "blue"];
+//     document.write(colors);
+
+//     //  Q:9a
+
+//     var colorInput = prompt("Enter a color name which do you want to add at the start.");
+//     var colors = ["red", "green", "blue"];
+//     var Addedcolor = colors.unshift(colorInput);
+//     document.write(colors);
+
+//     //  Q:9b
+
+//     var colorInput = prompt("Enter a color name which do you want to add at the end.");
+//     var colors = ["red", "green", "blue"];
+//     var Addedcolor = colors.push(colorInput);
+//     document.write(colors);
+
+//     //  Q:9c
+
+//     var colorInput1 = prompt("Enter a color 1 name which do you want to add at the start.");
+//     var colorInput2 = prompt("Enter a color 2 name which do you want to add at the start.");
+
+//     var colors = ["red", "green", "blue"];
+//     var Addedcolor = colors.unshift(colorInput1, colorInput2);
+//     document.write(colors);
+
+//     //  Q:9d
+
+// var colorInput = prompt("Enter a color  name which do you want to delete  at the start.");
+
+//     var colors = ["red", "green", "blue"];
+//     var Addedcolor = colors.shift(colorInput);
+//     document.write(colors);
+
+//     //  Q:9e
+
+//  var colors = ["red", "green", "blue"];
+//     var colorInput = prompt("Enter a color name which do you want to add at the desire position.");
+//     var indexNumber = +prompt("which color do you want to add on that index? ");
+//     colors.splice(indexNumber, 0, colorInput);
+//     document.write(colors);
+
+//     //  Q:9f
+
+// var colors = ["red", "green", "blue"];
+//     var deleteIndex = +prompt("At which index do you want to delete color?")
+//     var colorDelete = +prompt("which color do you want to delete on that index?")
+//     colors.splice(deleteIndex, colorDelete);
+//     document.write(colors + "<br/>");
+
+// //  Q:10
+
+// var studentScores = [67,87,98,97,67,80,90];
+// document.write("Scores of Students :  " + studentScores);
+
+// document.write("<br>")
+
+// var sortedScores = studentScores.sort()
+// document.write("Ordered Scores of Students :  " + studentScores);
+
+// //  Q:11
+
+// var citiesArray = ["karachi","Queeta","Peshawar","lahore","Islamabad"]
+//     var selectedCities = citiesArray.slice(2,5);
+//     document.write("Cities List  : <br> " + citiesArray + "<br>");
+//     document.write("Cities List  : <br> " + selectedCities);
+
+// //  Q:12
+
+// var arr = ["This", "is", "my",  "cat"];
+//     document.write("<h1>Array: </h1>");
+//     document.write(`<h1>${arr}</h1><br>`);
+
+//     var joined = arr.join(" ");
+
+//     document.write("<h1>String: </h1>");
+//     document.write(`<h1>${joined}</h1><br>`);
+
+// //  Q:13
+
+// var acc = ["Keyboard","mouse","printer","monitor"];
+// document.write("<h2>Devices: </h2>");
+// document.write(`<h2>${acc}</h2><br>`);
+
+// var firstDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${firstDevice}</h2>`);
+
+// var secDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${secDevice}</h2>`);
+
+// var thirdDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${thirdDevice}</h2>`);
+
+// var fourthDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${fourthDevice}</h2>`);
+
+// //  Q:14
+
+// var acc = ["Keyboard","mouse","printer","monitor"];
+//     document.write("<h2>Devices: </h2>");
+//     document.write(`<h2>${acc}</h2><br>`);
+
+//     var firstDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${firstDevice}</h2>`);
+
+//     var secDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${secDevice}</h2>`);
+
+//     var thirdDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${thirdDevice}</h2>`);
+
+//     var fourthDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${fourthDevice}</h2>`);
+
+// //  Q:15
+
+// var mobiles = ["Apple","Samsung", "Motorola", "Nokia","Sony", "Haier"];
+
+//     document.write(`
+//         <div class="dropDown">
+//         <select>
+//             <option>${mobiles[0]}</option>
+//             <option>${mobiles[1]}</option>
+//             <option>${mobiles[2]}</option>
+//             <option>${mobiles[3]}</option>
+//             <option>${mobiles[4]}</option>
+//             <option>${mobiles[5]}</option>
+//         </select>
+//         `)
