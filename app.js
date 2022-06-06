@@ -250,16 +250,16 @@
 // document.write("Circumference: " + circumference + "<br>");
 // document.write("Area: " + area);
 
-//    Q:13
+// //    Q:13
 
-var favSnack = "Lays";
-var currentAge = 21;
-var maxAge = 70;
-var snackperDay = 4;
-var totalsnacktillDeath = (maxAge - currentAge) * 365 * 4;
+// var favSnack = "Lays";
+// var currentAge = 21;
+// var maxAge = 70;
+// var snackperDay = 4;
+// var totalsnacktillDeath = (maxAge - currentAge) * 365 * 4;
 
-document.write("<h1> THe Lifetime Supply Calculator</h1> <hr><br>")
-document.write("Favourite Snacks: " + favSnack + "<br> Current Age: " + currentAge + "<br>  Estimated Maximum Age: " + maxAge + "<br>Amount Of Snacks Per Day: " + snackperDay + "<br> You will need  " + totalsnacktillDeath + " Lays to last you until the Ripe old Age of " + maxAge);
+// document.write("<h1> THe Lifetime Supply Calculator</h1> <hr><br>")
+// document.write("Favourite Snacks: " + favSnack + "<br> Current Age: " + currentAge + "<br>  Estimated Maximum Age: " + maxAge + "<br>Amount Of Snacks Per Day: " + snackperDay + "<br> You will need  " + totalsnacktillDeath + " Lays to last you until the Ripe old Age of " + maxAge);
 
 
 
@@ -349,55 +349,304 @@ document.write("Favourite Snacks: " + favSnack + "<br> Current Age: " + currentA
 
 
 
-// Question 5
+////Question 5
 
-var nameSub1 = prompt("Enter a your subject name : ");
-var subMarks1 = parseInt(prompt("Enter Obtained marks of this subject"));
+// var nameSub1 = prompt("Enter a your subject name : ");
+// var subMarks1 = parseInt(prompt("Enter Obtained marks of this subject"));
 
-var nameSub2 = prompt("Enter a your subject name : ");
-var subMarks2 = parseInt(prompt("Enter Obtained marks of this subject"));
+// var nameSub2 = prompt("Enter a your subject name : ");
+// var subMarks2 = parseInt(prompt("Enter Obtained marks of this subject"));
 
-var nameSub3 = prompt("Enter a your subject name : ");
-var subMarks3 = parseInt(prompt("Enter Obtained marks of this subject"));
+// var nameSub3 = prompt("Enter a your subject name : ");
+// var subMarks3 = parseInt(prompt("Enter Obtained marks of this subject"));
 
 
-var eachmarks = 100;
-var eachpercentage1 = subMarks1 / eachmarks * 100;
-var eachpercentage2 = subMarks2 / eachmarks * 100;
-var eachpercentage3 = subMarks3 / eachmarks * 100;
+// var eachmarks = 100;
+// var eachpercentage1 = subMarks1 / eachmarks * 100;
+// var eachpercentage2 = subMarks2 / eachmarks * 100;
+// var eachpercentage3 = subMarks3 / eachmarks * 100;
 
-var totalMarksStd = 300;
-var obtainedMarks = subMarks1 + subMarks2 + subMarks3;
-var Percentage = obtainedMarks / totalMarksStd * 100;
-document.write(`<table>
-    <tr>  
-        <th>Subjects</th>  
-        <th>Total Marks</th>  
-        <th>Obtained Marks</th> 
-        <th>Percentage</th>  
-    </tr>  
-    <tr>
-        <td>${nameSub1}</td>
-        <td>${eachmarks}</td>
-        <td>${subMarks1}</td>
-        <td>${eachpercentage1}%</td>
-    </tr>
-    <tr>
-    <td>${nameSub2}</td>
-    <td>${eachmarks}</td>
-    <td>${subMarks2}</td>
-    <td>${eachpercentage2}%</td>
-</tr>
-<tr>
-<td>${nameSub3}</td>
-<td>${eachmarks}</td>
-<td>${subMarks3}</td>
-<td>${eachpercentage3}%</td>
-</tr>  
-<tr>
-<td></td>
-<td>${totalMarksStd}</td>
-<td>${obtainedMarks}</td>
-<td>${Percentage}%</td>
-</tr>  
-    </table>`)
+// var totalMarksStd = 300;
+// var obtainedMarks = subMarks1 + subMarks2 + subMarks3;
+// var Percentage = obtainedMarks / totalMarksStd * 100;
+// document.write(`<table>
+//     <tr>  
+//         <th>Subjects</th>  
+//         <th>Total Marks</th>  
+//         <th>Obtained Marks</th> 
+//         <th>Percentage</th>  
+//     </tr>  
+//     <tr>
+//         <td>${nameSub1}</td>
+//         <td>${eachmarks}</td>
+//         <td>${subMarks1}</td>
+//         <td>${eachpercentage1}%</td>
+//     </tr>
+//     <tr>
+//     <td>${nameSub2}</td>
+//     <td>${eachmarks}</td>
+//     <td>${subMarks2}</td>
+//     <td>${eachpercentage2}%</td>
+// </tr>
+// <tr>
+// <td>${nameSub3}</td>
+// <td>${eachmarks}</td>
+// <td>${subMarks3}</td>
+// <td>${eachpercentage3}%</td>
+// </tr>  
+// <tr>
+// <td></td>
+// <td>${totalMarksStd}</td>
+// <td>${obtainedMarks}</td>
+// <td>${Percentage}%</td>
+// </tr>  
+//     </table>`)
+
+
+
+// //      ASSIGNMENT 4
+// //      CHAPTER 9-11
+//   //  Q:1
+//   var city = prompt("Enter a city - only karachi");
+//   if ((city === "Karachi" || city === "karachi")) {
+//       alert("Welcome to city of lights")
+//   }
+//   else {
+//       alert("Invalid Input")
+//   }
+
+// //  Q:3
+// var fuel = +prompt("Enter value of remaining fuel in your car.");
+
+// if (fuel < 0.25) {
+//     alert("Please refill the fuel in your car")
+// }
+// else {
+//     alert("No need to refill the fuel in your car")
+// }
+
+// //  Q:4
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// }
+// var b = 82;
+// if (b++ === 83) {
+//     alert("given condition for variable b is true");
+// }
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+// }
+// if (c === 13) {
+//     alert("condition 2 is true");
+// }
+// if (++c < 14) {
+//     alert("condition 3 is true");
+// }
+// if (c === 14) {
+//     alert("condition 4 is true");
+// }
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals");
+// }
+// if (true) {
+//     alert("True");
+// }
+// if (false) {
+//     alert("False");
+// }
+// if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
+// //  Q:5
+// var a = 4;
+//     if (++a === 5) {
+//         alert("given condition for variable a is true");
+//     }
+//     var b = 82;
+//     if (b++ === 83) {
+//         alert("given condition for variable b is true");
+//     }
+//     var c = 12;
+//     if (c++ === 13) {
+//         alert("condition 1 is true");
+//     }
+//     if (c === 13) {
+//         alert("condition 2 is true");
+//     }
+//     if (++c < 14) {
+//         alert("condition 3 is true");
+//     }
+//     if (c === 14) {
+//         alert("condition 4 is true");
+//     }
+//     var materialCost = 20000;
+//     var laborCost = 2000;
+//     var totalCost = materialCost + laborCost;
+//     if (totalCost === laborCost + materialCost) {
+//         alert("The cost equals");
+//     }
+//     if (true) {
+//         alert("True");
+//     }
+//     if (false) {
+//         alert("False");
+//     }
+//     if ("car" < "cat") {
+//         alert("car is smaller than cat");
+//     }
+
+// //  Q:6
+
+// var StdObtainedSub1 = + prompt("Enter a obtain marks  of sub 1 : ");
+// var StdObtainedSub2 = + prompt("Enter a obtain marks  of sub 2 :");
+// var StdObtainedSub3 = + prompt("Enter a obtain marks  of sub 3 :");
+// var totalMarksSub = + prompt("Enter a total marks of 3 subject :");
+
+// var stdTotalObtMarks = StdObtainedSub1 + StdObtainedSub2 + StdObtainedSub3;
+
+// var percentage = (stdTotalObtMarks / totalMarksSub) * 100;
+
+// if (percentage >= 80) {
+//     document.write(`
+        
+//             <h1>Mark Sheet</h1>
+           
+//             <h2>Total Marks : ${totalMarksSub}</h2>
+//             <h2>Marks Obtained : ${stdTotalObtMarks}</h2>
+//             <h2>Percentage : ${percentage}%</h2>
+//             <h2>Grade : Grade A-one</h2>
+//             <h2>Remarks : Excellent </h2>
+        
+    
+//     `)
+// }
+// else if (percentage >= 70) {
+//     document.write(`
+        
+         
+//             <h1>Mark Sheet</h1>
+           
+//             <h2>Total Marks : ${totalMarksSub}</h2>
+//             <h2>Marks Obtained : ${stdTotalObtMarks}</h2>
+//             <h2>Percentage : ${percentage}%</h2>
+//             <h2>Grade : Grade A</h2>
+//             <h2>Remarks : Good </h2>
+//               `)
+// }
+
+// else if (percentage >= 60) {
+//     document.write(`
+        
+//             <h1>Mark Sheet</h1>
+           
+//             <h2>Total Marks : ${totalMarksSub}</h2>
+//             <h2>Marks Obtained : ${stdTotalObtMarks}</h2>
+//             <h2>Percentage : ${percentage}%</h2>
+//             <h2>Grade : Grade B</h2>
+//             <h2>Remarks : You need to improve </h2>
+//            `)
+// }
+// else {
+//     document.write(`
+        
+//         <h1>Mark Sheet</h1>
+       
+//         <h2>Total Marks : ${totalMarksSub}</h2>
+//         <h2>Marks Obtained : ${stdTotalObtMarks}</h2>
+//         <h2>Percentage : ${percentage}%</h2>
+//         <h2>Grade : Fail </h2>
+//         <h2>Remarks : Sorry </h2>
+//         `)
+// }  
+// //  Q:7
+
+// var user = +prompt("Enter a number");
+//     var guessNo = 2;
+//     if (user === guessNo) {
+//         alert("Hurrah! Correct answer")
+//     }
+//     else if (user === ++guessNo) {
+//         alert("Close enough to the correct answer")
+//     }
+//     else {
+//         alert("Sorry! Incorrect answer")
+//     }
+
+// //  Q:8
+
+// var number = +prompt("Enter a number : ");
+// if (number % 3 == 0) {
+//     alert('divisible by 3')
+// }
+// else {
+//     alert("not divisible by 3")
+
+// }
+
+// //  Q:9
+
+// var number = +prompt("Enter a number : ");
+// if (number % 2 == 0) {
+//     alert('Even Number')
+// }
+// else {
+//     alert("Odd Number")
+
+// }
+
+// //  Q:10
+
+// var temp = prompt("Enter a temprature :");
+// if (temp >= 40) {
+//     alert("It's too hot outside.")
+// }
+// else if ((temp >= 30)) {
+//     alert("The Weather  is Normal today")
+// }
+// else if ((temp >= 20)) {
+//     alert("Today’s Weather is cool.")
+// }
+// else {
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+
+// //  Q:11
+
+// var num1 = +prompt("Enter a number 1")
+// var num2 = +prompt("Enter a number 2")
+// var opt = prompt("Enter an operator  you want to perform (+,-,*,/,%");
+
+// if (opt === "+") {
+
+//     var result = num1 + num2
+//     alert(`Addition of ${num1} & ${num2} is ${result}`)
+// }
+// if (opt === "-") {
+
+//     var result = num1 - num2
+//     alert(`Subtraction of ${num1} & ${num2} is ${result}`)
+// }
+// if (opt === "*") {
+
+//     var result = num1 * num2
+//     alert(`Multiplication of ${num1} & ${num2} is ${result}`)
+// }
+// if (opt === "/") {
+
+//     var result = num1 + num2
+//     alert(`Division of ${num1} & ${num2} is ${result}`)
+// }
+// if (opt === "%") {
+
+//     var result = num1 + num2
+//     alert(`Reminder of ${num1} & ${num2} is ${result}`)
+// }
+// else {
+//     alert("Invalid Operator")
+// }
